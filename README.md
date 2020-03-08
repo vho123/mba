@@ -4,7 +4,7 @@ Market Basket Analysis
 R script to be used inside Azure Machine Learning Studio, R module.
 --------------------------------------------------------------------------
 
-# Map 1-based optional input ports to variables
+/# Map 1-based optional input ports to variables
 mydata <- maml.mapInputPort(1) # class: data.frame
 
 # Split data
