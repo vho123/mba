@@ -2,7 +2,7 @@
 mydata <- maml.mapInputPort(1) # class: data.frame
 
 # Split data
-dt <- split(mydata$Products, mydata$ID)
+dt <- split(mydata$SKU, mydata$OrderID)
 
 # Loading arules package
 if(!require(arules)) install.packages("arules")
